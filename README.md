@@ -1,6 +1,6 @@
 # code-wars
 
-Challenges from www.codewars.com
+Challenges from [Code Wars](www.codewars.com)
 
 1. [Convert string to camel case (6kyu)](https://www.codewars.com/kata/517abf86da9663f1d2000003/train/ruby)
 
@@ -8,12 +8,12 @@ Challenges from www.codewars.com
 - Examples:
 
 ```bash
-- to_camel_case("the-stealth-warrior") # returns "theStealthWarrior"
+> to_camel_case("the-stealth-warrior") # returns "theStealthWarrior"
 
-- to_camel_case("The_Stealth_Warrior") # returns "TheStealthWarrior"
+> to_camel_case("The_Stealth_Warrior") # returns "TheStealthWarrior"
 ```
 
-- TDD
+- TDD in [Code Wars](www.codewars.com)
 
 ```bash
 describe "Solution" do
