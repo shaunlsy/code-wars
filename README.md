@@ -56,3 +56,15 @@ anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
 - A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
 
 - Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
+
+  4.[Simple Pig Latin (5kyu)](https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/ruby)
+
+- Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+
+- Examples:
+
+```bash
+pig_it('Pig latin is cool') # igPay atinlay siay oolcay
+
+pig_it('Hello world !')     # elloHay orldway !
+```
