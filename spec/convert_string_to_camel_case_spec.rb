@@ -2,8 +2,6 @@ require 'convert_string_to_camel_case'
 
 describe "#to_camel_case" do
   it "converts dash/underscore delimited words into camel casing" do
-    p to_camel_case("makers-academy")
-    p to_camel_case("the-stealth-warrior")
     expect(to_camel_case("the-stealth-warrior")).to eq "theStealthWarrior"
     expect(to_camel_case("makers-academy")).to eq "makersAcademy"
   end
