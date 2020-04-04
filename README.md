@@ -71,7 +71,7 @@ pig_it('Hello world !')     # elloHay orldway !
 
 5. [Snail Sort (4kyu)](https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/train/ruby)
 
-- Given an ```n x n array, return the array elements arranged from outermost elements to the middle element, traveling clockwise.
+- Given an ```n x n``` array, return the array elements arranged from outermost elements to the middle element, traveling clockwise.
 
 - Examples:
 
