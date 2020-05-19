@@ -95,3 +95,15 @@ snail(array) #=> [1,2,3,4,5,6,7,8,9]
 - NOTE: The idea is not sort the elements from the lowest value to the highest; the idea is to traverse the 2-d array in a clockwise snailshell pattern.
 
 - NOTE 2: The 0x0 (empty matrix) is represented as en empty array inside an array [[]].
+
+6. [Extract the domain name from a URL](https://www.codewars.com/kata/514a024011ea4fb54200004b/train/ruby)
+
+- Write a function that when given a URL as a string, parses out just the domain name and returns it as a string. 
+
+- Examples:
+
+```bash
+domain_name("http://github.com/carbonfive/raygun") == "github" 
+domain_name("http://www.zombie-bites.com") == "zombie-bites"
+domain_name("https://www.cnet.com") == "cnet"
+```
