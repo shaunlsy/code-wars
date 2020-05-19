@@ -1,5 +1,4 @@
 def domain_name(url)
   # return just the domain name
-  return "aaa"
+  return url[/\.(.*)\./,1]
 end
-#url.match(/\.(.*)\./)
